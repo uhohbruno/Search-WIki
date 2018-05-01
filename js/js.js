@@ -1,9 +1,8 @@
 $(document).ready(function () {
   $('#searchInput').val('');
   $('#searchInput').keypress(function(e){
-         if(e.which == 13){//Enter key pressed
-             $("#magnifyingGlass").click();//Trigger search button click event
-         }
+         if(e.which == 13){
+             $("#magnifyingGlass").click();
      });
   $("#magnifyingGlass").click(function() {
   
